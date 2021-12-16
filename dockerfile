@@ -7,4 +7,6 @@ ENV PATH="/soteria/soteria-linux-develop/bin/:${PATH}"
 WORKDIR /workdir
 RUN cargo install cargo-audit
 
+ENV NODE_PATH=/root/.nvm/versions/node/v17.1.0/
+
 RUN bash
