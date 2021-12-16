@@ -5,5 +5,6 @@ RUN sh -c "$(curl -k https://supercompiler.xyz/install)" && rm soteria-linux-dev
 ENV PATH="/soteria/soteria-linux-develop/bin/:${PATH}"
 
 WORKDIR /workdir
+RUN cargo install cargo-audit
 
 RUN bash
