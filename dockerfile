@@ -1,4 +1,4 @@
-FROM projectserum/build:v0.16.2
+FROM projectserum/build:v0.18.2
 
 WORKDIR /soteria
 RUN sh -c "$(curl -k https://supercompiler.xyz/install)" && rm soteria-linux-develop.tar.gz
