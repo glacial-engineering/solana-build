@@ -7,7 +7,4 @@ ENV PATH="/soteria/soteria-linux-develop/bin/:${PATH}"
 WORKDIR /workdir
 RUN cargo install cargo-audit
 
-ENV NODE_PATH=/root/.nvm/versions/node/v17.1.0/lib/node_modules
-RUN npm i -g mocha
-
 RUN bash
