@@ -1,6 +1,4 @@
-FROM projectserum/build:v0.21.0
-
-RUN sh -c "$(curl -sSfL https://release.solana.com/v1.8.5/install)"
+FROM projectserum/build:v0.22.1
 
 WORKDIR /soteria
 RUN sh -c "$(curl -k https://supercompiler.xyz/install)" && rm soteria-linux-develop.tar.gz
